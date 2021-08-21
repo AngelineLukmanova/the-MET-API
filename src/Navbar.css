@@ -1,0 +1,40 @@
+.Navbar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    background-color: #e4002b;
+    color: white;
+    justify-content:  center;
+    width: 100%;
+   
+}
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.Navbar-title{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2rem;
+    justify-content: space-around;
+}
+
+.Navbar a{ 
+    color: white;
+}
+
+.Navbar svg{
+    height: 50px;
+    width: 50px;
+}
+

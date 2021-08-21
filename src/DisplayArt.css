@@ -1,0 +1,29 @@
+.DisplayArt{
+    width: 30%;
+    padding: 0 1.2rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;   
+}
+
+.DisplayArt img{
+    width: 100%;
+    box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.69);
+}
+
+.DisplayArt-info{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.564);
+    font-weight: 500;
+    box-shadow: 5px 6px 8px -2px rgba(0,0,0,0.39);
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.DisplayArt-info p{
+   padding: 0 1rem;
+}
+
+.DisplayArt-info span{
+    font-weight: 700;
+}
